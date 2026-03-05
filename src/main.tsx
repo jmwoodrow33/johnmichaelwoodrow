@@ -5,7 +5,7 @@ import App from "./App";
 import "./styles/global.css";
 
 createRoot(document.getElementById("root")!).render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/johnmichaelwoodrow/">
     <App />
   </BrowserRouter>
 );
