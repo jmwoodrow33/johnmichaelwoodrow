@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import type { PropsWithChildren } from "react";
 import { useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import NavBar from "./Navbar";
 
 // Layout component wraps every page with the shell that contains the
@@ -30,6 +31,13 @@ export default function Layout({ children }: PropsWithChildren) {
       >
         ☰
       </button>
+
+      {/* persistent contact button always visible */}
+      <div className="contact-cta">
+        <NavLink to="/contact" className="btn">
+          Contact Me
+        </NavLink>
+      </div>
 
       {/* Dim backdrop when drawer is open (mobile only) */}
       <div

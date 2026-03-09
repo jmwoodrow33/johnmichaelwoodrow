@@ -52,7 +52,7 @@ export default function TaskManagementSystem() {
         <div className="project-hero-placeholder">
           <div className="muted">Demo video / screenshots coming soon.</div>
           <div className="muted" style={{ marginTop: 6, fontSize: 12 }}>
-            Add a short dashboard walkthrough here when you have it.
+            A short dashboard walkthrough is under construction.
           </div>
         </div>
       }

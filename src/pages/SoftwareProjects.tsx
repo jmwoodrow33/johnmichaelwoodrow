@@ -31,6 +31,34 @@ const projects = [
       "A Python / Pygame arcade game featuring physics-based movement, collision detection, obstacle generation, and persistent high score saving.",
     tech: ["Python", "Pygame", "Game Dev"],
   },
+  {
+    to: "/projects/minesweeper-game",
+    title: "Minesweeper Browser Game",
+    description:
+      "A classic Minesweeper game implemented in vanilla JavaScript for the browser, featuring multiple difficulty levels and intuitive controls.",
+    tech: ["JavaScript", "HTML", "CSS"],
+  },
+  {
+    to: "/projects/blackjack-console-game",
+    title: "BlackJack Console Game",
+    description:
+      "A Java-based multiplayer BlackJack game with server-client architecture for console-based gameplay.",
+    tech: ["Java", "Maven"],
+  },
+  {
+    to: "/projects/amity",
+    title: "Amity",
+    description:
+      "A multipurpose Discord bot built with Python and discord.py, featuring a modular cog system for extensible functionality.",
+    tech: ["Python", "discord.py"],
+  },
+  {
+    to: "/projects/portfolio-website",
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built with React and TypeScript, featuring responsive design and project showcases.",
+    tech: ["React", "TypeScript", "Vite"],
+  },
 ];
 
 export default function SoftwareProjects() {

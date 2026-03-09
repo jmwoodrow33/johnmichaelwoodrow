@@ -5,7 +5,6 @@ const items = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About" },
   { to: "/softwareprojects", label: "Software Projects" },
-  { to: "/videoeditingprojects", label: "Video Editing Projects" },
   { to: "/contact", label: "Contact" },
 ];
 

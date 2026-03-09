@@ -38,15 +38,16 @@ export default function ProjectPage({
   return (
     <section className="page">
       <div className="project-top">
+        {/* back button sits above the title on the left side */}
+        <div className="project-back">
+          <Link className="btn ghost" to="/softwareprojects">
+            ← Software Projects
+          </Link>
+        </div>
+
         <div className="project-top-left">
           <h1 className="page-title">{title}</h1>
           {subtitle ? <p className="page-subtitle">{subtitle}</p> : null}
-        </div>
-
-        <div className="project-top-right">
-          <Link className="btn ghost" to="/softwareprojects">
-            ← Back to Software Projects
-          </Link>
         </div>
       </div>
 

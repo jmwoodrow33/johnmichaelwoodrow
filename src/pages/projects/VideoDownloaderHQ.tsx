@@ -29,7 +29,7 @@ export default function VideoDownloaderHQ() {
         "Simple paste → download workflow",
         "Handles invalid links gracefully",
         "Structured and reusable utility design",
-        "Clear user feedback during download process",
+        "Integrates FFmpeg processing to combine the best available audio and video tracks into one file",
       ]}
       whatILearned={[
         "Designing small utilities with real-world practicality",

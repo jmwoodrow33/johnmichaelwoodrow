@@ -18,15 +18,16 @@ export default function InventoryManagementSystem() {
   return (
     <ProjectPage
       title="Inventory Management System"
-      subtitle="C# / .NET / SQL"
-      blurb="A full stack inventory management system designed to handle real-world CRUD workflows. The application allows users to add, search, edit, and delete inventory records while maintaining structured data integrity and responsive UI updates."
-      tech={["C#", ".NET", "SQL Server", "Entity Framework"]}
+      subtitle="Blazor / .NET / SQL"
+      blurb="A full stack inventory management system built with Blazor and Razor for the frontend, .NET for the backend, and SQL Server for data storage. The application allows users to add, search, edit, and delete inventory records while maintaining structured data integrity and responsive UI updates."
+      tech={["C#", ".NET", "Blazor", "Razor", "SQL Server", "Entity Framework"]}
       meta={[
         { label: "Type", value: "Full Stack Application" },
         { label: "Architecture", value: "Client / Server with database backend" },
         { label: "Focus", value: "CRUD workflows, data validation, UI responsiveness" },
       ]}
       highlights={[
+        "Blazor and Razor-based frontend for interactive web UI",
         "Complete Create, Read, Update, Delete workflows",
         "Structured database schema with relational integrity",
         "Dynamic search functionality",
@@ -34,6 +35,7 @@ export default function InventoryManagementSystem() {
         "Separation of concerns between UI and data logic",
       ]}
       whatILearned={[
+        "Building interactive web UIs with Blazor and Razor components",
         "How to design database-driven applications properly",
         "Managing state and validation across full CRUD flows",
         "Structuring backend logic for maintainability",
