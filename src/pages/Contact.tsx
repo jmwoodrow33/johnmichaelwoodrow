@@ -8,7 +8,6 @@ export default function Contact() {
     { label: "GitHub (Personal)", href: "https://github.com/jmwoodrow33" },
     { label: "GitHub (School Work)", href: "https://github.com/JohnMichaelWoodrow" },
     { label: "Linkedin", href: "https://linkedin.com/in/john-michael-woodrow/" },
-    { label: "Video Portfolio", href: "https://watchingwrestlingwtso.github.io" },
   ];
 
   return (
